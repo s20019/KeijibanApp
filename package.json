@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.3",
+    "passport": "^0.5.2"
+  }
 }
