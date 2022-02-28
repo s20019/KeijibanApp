@@ -6,6 +6,19 @@ module.exports = {
     },
 
     threadList: (req, res) => {
-        res.render("threadList");
+        const paramsName = req.params.categoryName;
+        res.render("threadList", { categoryName: paramsName });
+    },
+
+    newThread: (req, res) => {
+        res.render("newThread");
+    },
+
+    logIn: (req, res) => {
+        res.render("logIn");
+    },
+
+    signUp: (req, res) => {
+        res.render("signUp");
     }
 };
