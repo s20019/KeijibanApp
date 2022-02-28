@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+}
+
+#center {
+    width: 800px;
+    margin: 0 auto;
+    background: antiquewhite;
+}
+
+form input {
+    width: 300px;
+    height: auto;
+}
